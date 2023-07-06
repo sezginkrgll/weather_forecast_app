@@ -9,7 +9,6 @@ function Form() {
   useEffect(() => {
     const filtered = CITIES.filter((item) => item.name === cityName);
     setCity({ lat: filtered[0].geocoding.lat, lon: filtered[0].geocoding.lon });
-
   }, [cityName]);
 
   const onChangeInput = (event) => {

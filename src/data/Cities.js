@@ -1,4 +1,4 @@
-const YENI = [
+const CITIES = [
   {
     name: "Adana",
     zipCode: "01000",
@@ -649,4 +649,4 @@ const YENI = [
   },
 ];
 
-export default YENI;
+export default CITIES;
